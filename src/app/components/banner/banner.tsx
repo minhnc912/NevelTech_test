@@ -53,7 +53,12 @@ const Banner = () => {
           {/* Overlay content */}
           <div className="absolute inset-0 flex items-center justify-center text-white text-center p-5 px-10">
             <button className="absolute top-2 right-3 z-10">
-              <img src="/infor.svg" alt="infor icon" />
+              <Image
+                src="/infor.svg"
+                alt="infor icon"
+                layout="fill"
+                objectFit="cover"
+              />
             </button>
             <div className="w-1/2 flex flex-col items-center gap-4">
               <div className="bg-[#FFFFFF1A] rounded-[80px] font-semibold text-lg md:text-xl xl:text-2xl xxl:text-3xl px-4 py-1">
@@ -79,7 +84,14 @@ const Banner = () => {
             </div>
             <div className="w-1/2 flex justify-end">
               {banners[2].overlayImage && (
-                <img src={banners[2].overlayImage} alt="Icon" width="60%" />
+                <div className="w-3/5">
+                  <Image
+                    src={banners[2].overlayImage}
+                    alt="Icon"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
               )}
             </div>
           </div>
@@ -97,7 +109,12 @@ const Banner = () => {
           {/* Overlay content */}
           <div className="absolute inset-0 flex items-center justify-center text-white text-center p-5 px-10">
             <button className="absolute top-2 right-3 z-10">
-              <img src="/infor.svg" alt="infor icon" />
+              <Image
+                src="/infor.svg"
+                alt="infor icon"
+                layout="fill"
+                objectFit="cover"
+              />
             </button>
             <div className="w-1/2 flex flex-col items-center gap-4">
               <div className="bg-[#FFFFFF1A] rounded-[80px] font-semibold text-lg md:text-xl xl:text-2xl xxl:text-3xl px-4 py-1">
@@ -125,7 +142,12 @@ const Banner = () => {
             </div>
             <div className="w-1/2 flex justify-center">
               {banners[0].overlayImage && (
-                <img src={banners[0].overlayImage} alt="Icon" />
+                <Image
+                  src={banners[0].overlayImage}
+                  alt="Icon"
+                  layout="fill"
+                  objectFit="cover"
+                />
               )}
             </div>
           </div>
@@ -143,7 +165,12 @@ const Banner = () => {
           {/* Overlay content */}
           <div className="absolute inset-0 flex items-center justify-center text-white text-center py-12 px-10">
             <button className="absolute top-2 right-3 z-10">
-              <img src="/infor.svg" alt="infor icon" />
+              <Image
+                src="/infor.svg"
+                alt="infor icon"
+                layout="fill"
+                objectFit="cover"
+              />
             </button>
             <div className="w-1/2 flex flex-col items-center">
               <div className="bg-[#FFFFFF1A] rounded-[80px] font-semibold text-lg md:text-xl xl:text-2xl xxl:text-3xl px-4 py-1">
@@ -175,7 +202,12 @@ const Banner = () => {
             </div>
             <div className="w-1/2 flex justify-center">
               {banners[1].overlayImage && (
-                <img src={banners[1].overlayImage} alt="Icon" />
+                <Image
+                  src={banners[1].overlayImage}
+                  alt="Icon"
+                  layout="fill"
+                  objectFit="cover"
+                />
               )}
             </div>
           </div>
