@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import Navbar from "./navbar/navbar";
 import Footer from "./footer/footer";
