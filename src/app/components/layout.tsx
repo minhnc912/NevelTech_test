@@ -8,7 +8,7 @@ function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="font-[family-name:var(--font-inter-sans)] flex flex-col gap-6 lg:gap-10">
+    <div className="font-[family-name:var(--font-jost-sans)] flex flex-col gap-6 lg:gap-10">
       <header>
         <Navbar />
       </header>
