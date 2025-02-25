@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import Navbar from "./navbar";
+import Navbar from "./navbar/navbar";
+import Footer from "./footer/footer";
 
 function Layout({
   children,
@@ -8,16 +9,14 @@ function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="font-[family-name:var(--font-inter-sans)]">
+    <div className="font-[family-name:var(--font-inter-sans)] flex flex-col gap-6 lg:gap-10">
       <header>
-        {/* <nav>
-          <Link href="/">Home</Link>
-          <Link href="/game">game</Link>
-        </nav> */}
         <Navbar />
       </header>
-      <main>{children}</main>
-      <footer>{/* Footer content */}</footer>
+      <main className="flex flex-col gap-6 lg:gap-10">{children}</main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

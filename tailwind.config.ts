@@ -9,11 +9,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Inter"', "sans-serif"],
+        sans: ['"Jost"', "sans-serif"],
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#12294A",
       },
       screens: {
         xs: "480px",
