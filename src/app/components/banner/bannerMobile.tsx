@@ -24,7 +24,7 @@ const BannerMobile = ({ banners }: BannerMobileProps) => {
 
   return (
     <div className="flex flex-col items-center justify-center md:hidden w-full px-6 pt-3 gap-3 relative">
-      {banners[0].overlayImage && (
+      {banners[2].overlayImage && (
         <img
           className="absolute -top-[7%] z-10"
           src="/icon-banner-mobile.png"
